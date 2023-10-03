@@ -1,0 +1,67 @@
+
+body{
+    background-color: black;
+
+
+
+}
+.imgbox{
+width: 350px;
+
+}
+img{
+animation-name: chelsea;
+animation-duration: 8s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+
+}
+@keyframes chelsea{
+0%{
+transform: translate(320px,420px);
+}
+20%{
+transform: translate(520px,620px);
+filter: invert(26%) sepia(89%)
+saturate(1583%) hue-rotate(95deg)
+brightness(96%) contrast(106%)
+}
+40%{
+transform: translate(220px,320px);
+filter: invert(20%) sepia(29%)
+saturate(1583%) hue-rotate(95deg)
+brightness(96%) contrast(106%)
+}
+50%{
+transform: translate(920px,220px);
+filter: invert(16%) sepia(99%)
+saturate(7404%) hue-rotate(4deg)
+brightness(95%) contrast(118%)
+}
+70%{
+transform: translate(450px,350px);
+filter: invert(10%) sepia(90%)
+saturate(5268%) hue-rotate(245deg)
+brightness(109%) contrast(155%)
+}
+90%{
+transform: translate(520px,420px);
+filter: invert(28%) sepia(13%)
+saturate(1207%) hue-rotate(130deg)
+brightness(95%) contrast(80%)
+}
+100%{
+transform: translate();
+
+}
+}
+
+
+
+
+
+
+
+
+
+
